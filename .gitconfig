@@ -1,0 +1,8 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Matt Olsen
+	email = matt.olsen@payclip.com
+[push]
+	default = current
+[core]
+	pager = less -F -X

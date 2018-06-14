@@ -106,6 +106,9 @@ if [[ -f ~/.aliases ]]; then
     source ~/.aliases
 fi
 
-export PATH=~/anaconda3/bin:"$PATH"
+if [[ -f ~/.path ]]; then
+    source ~/.path
+fi
+
 #source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.oh-my-zsh/custom/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

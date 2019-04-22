@@ -5,7 +5,7 @@ if [[ ! -d ~/.oh-my-zsh/custom/themes/powerlevel9k ]]; then
     git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 fi
 if [[ ! -d ~/.oh-my-zsh/custom/zsh-syntax-highlighting ]]; then
-    git clone git://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/zsh-syntax-highlighting
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/zsh-syntax-highlighting
 fi
 cp .zshrc ~/
 cp .vimrc ~/
